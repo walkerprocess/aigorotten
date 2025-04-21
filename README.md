@@ -37,19 +37,19 @@
 
 ## ⚠️ 주의사항 / Caution
 
-1. 🔊 **웹 페이지 자체에는 음성 인식 기능이 없음**
+1. 🔊 **웹 페이지 자체에는 음성 인식 기능이 없음** / ** Voice activation code is needed to be activated in local**
 
    - 음성 인식은 로컬에서 실행됩니다.
    - 웹에서는 정적 구현만 지원되며, 동적 웹 페이지 구현 실패.
 
-2. 🍓 **지원 과일 및 채소: 10종**
+2. 🍓 **지원 과일 및 채소: 10종** / ** 10 types of specimen used **
 
    - 사과, 바나나, 파프리카, 당근, 오이, 망고, 오렌지, 감자, 딸기, 토마토
    - 확장을 원할 경우, Custom Vision에 `fr/low/rotten` 기준 이미지 추가 필요.
 
-3. 📁 **자동 업로드 시, 이미지 폴더 지정 필요**
+3. 📁 **자동 업로드 시, 이미지 폴더 지정 필요** / ** For automated uploads, need to set the image folder**
    - 모든 이미지를 한 폴더에 넣고, `upload_image_automation()` 함수 내 `IMAGE_FOLDER` 수정.
-
+   - Put every image in single folder and fix 'IMAGE_FOLDER' in 'upload_image_automation()' function
 ---
 
 ## 🔁 전체 흐름 / Workflow
